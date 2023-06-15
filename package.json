@@ -1,0 +1,27 @@
+{
+  "name": "konectify",
+  "version": "1.0.0",
+  "description": "search api ",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon search.js"
+  },
+  "author": "Macharia",
+  "license": "ISC",
+  "dependencies": {
+    "@lyrasearch/lyra": "^0.3.1",
+    "@lyrasearch/plugin-data-persistence": "^0.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongodb": "^4.13.0",
+    "mysql": "^2.18.1",
+    "regex": "^0.1.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

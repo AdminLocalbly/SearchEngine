@@ -1,0 +1,12 @@
+
+const winston = require("winston");
+
+const logger = winston.createLogger({
+    format: winston.format.combine(
+      winston.format.timestamp(), // adds a timestamp property
+      winston.format.json()
+    ),
+    transports: [ new winston.transports.File({ filename: 'KonectifySearch.log' })],
+  });
+
+module.exports = logger 
